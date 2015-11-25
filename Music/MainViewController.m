@@ -7,9 +7,12 @@
 //
 
 #import "MainViewController.h"
-
+#import <AudioToolbox/AudioToolbox.h>
 @interface MainViewController ()
-
+{
+    SystemSoundID musicID;
+}
+@property (strong, nonatomic) IBOutlet UIButton *playButton;
 @end
 
 @implementation MainViewController
@@ -17,11 +20,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *music = [[NSBundle mainBundle]pathForResource:@"Angel" ofType:@"mp3"];
+    NSURL *musicUrl = [NSURL fileURLWithPath:music];
+    
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)musicUrl, &musicID);
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)clickPlayBtn:(id)sender {
+//    AudioServicesPlaySystemSound(musicID);
+    AudioServicesPlaySystemSound(musicID);
+//    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+//    AudioServicesPlaySystemSound(kTimePitchParam_Rate);
+    
 }
 
 /*

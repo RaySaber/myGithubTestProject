@@ -9,11 +9,37 @@
 /* Begin PBXBuildFile section */
 		71BC1FDA1B3BABE300A34BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC1FD91B3BABE300A34BCC /* main.m */; };
 		71BC1FDD1B3BABE300A34BCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC1FDC1B3BABE300A34BCC /* AppDelegate.m */; };
-		71BC1FE01B3BABE300A34BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC1FDF1B3BABE300A34BCC /* ViewController.m */; };
-		71BC1FE31B3BABE300A34BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BC1FE11B3BABE300A34BCC /* Main.storyboard */; };
 		71BC1FE51B3BABE300A34BCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BC1FE41B3BABE300A34BCC /* Images.xcassets */; };
 		71BC1FE81B3BABE300A34BCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BC1FE61B3BABE300A34BCC /* LaunchScreen.xib */; };
 		71BC1FF41B3BABE300A34BCC /* MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC1FF31B3BABE300A34BCC /* MusicTests.m */; };
+		71BC20001B3BABF800A34BCC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC1FFE1B3BABF800A34BCC /* MainViewController.m */; };
+		71BC20011B3BABF800A34BCC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BC1FFF1B3BABF800A34BCC /* MainViewController.xib */; };
+		71BC201A1B3BAD2800A34BCC /* Angel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20031B3BAD2800A34BCC /* Angel.mp3 */; };
+		71BC201B1B3BAD2800A34BCC /* Childhood.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20041B3BAD2800A34BCC /* Childhood.ogg */; };
+		71BC201C1B3BAD2800A34BCC /* Echo.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20051B3BAD2800A34BCC /* Echo.ogg */; };
+		71BC201D1B3BAD2800A34BCC /* Enthusiastic.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20061B3BAD2800A34BCC /* Enthusiastic.ogg */; };
+		71BC201E1B3BAD2800A34BCC /* Freedom.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20071B3BAD2800A34BCC /* Freedom.ogg */; };
+		71BC201F1B3BAD2800A34BCC /* Game.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20081B3BAD2800A34BCC /* Game.ogg */; };
+		71BC20201B3BAD2800A34BCC /* GuitarClassic.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20091B3BAD2800A34BCC /* GuitarClassic.ogg */; };
+		71BC20211B3BAD2800A34BCC /* GuitarPop.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC200A1B3BAD2800A34BCC /* GuitarPop.ogg */; };
+		71BC20221B3BAD2800A34BCC /* GuitarRetro.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC200B1B3BAD2800A34BCC /* GuitarRetro.ogg */; };
+		71BC20231B3BAD2800A34BCC /* IceWorldPiano.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC200C1B3BAD2800A34BCC /* IceWorldPiano.ogg */; };
+		71BC20241B3BAD2800A34BCC /* LeisureTime.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC200D1B3BAD2800A34BCC /* LeisureTime.ogg */; };
+		71BC20251B3BAD2800A34BCC /* Memory.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC200E1B3BAD2800A34BCC /* Memory.ogg */; };
+		71BC20261B3BAD2800A34BCC /* MI.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC200F1B3BAD2800A34BCC /* MI.ogg */; };
+		71BC20271B3BAD2800A34BCC /* MiGlassChime.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20101B3BAD2800A34BCC /* MiGlassChime.ogg */; };
+		71BC20281B3BAD2800A34BCC /* MiMix.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20111B3BAD2800A34BCC /* MiMix.ogg */; };
+		71BC20291B3BAD2800A34BCC /* MiXylophone.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20121B3BAD2800A34BCC /* MiXylophone.ogg */; };
+		71BC202A1B3BAD2800A34BCC /* MorningBreeze.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20131B3BAD2800A34BCC /* MorningBreeze.ogg */; };
+		71BC202B1B3BAD2800A34BCC /* MorningStreamlet.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20141B3BAD2800A34BCC /* MorningStreamlet.ogg */; };
+		71BC202C1B3BAD2800A34BCC /* MorningSunshine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20151B3BAD2800A34BCC /* MorningSunshine.ogg */; };
+		71BC202D1B3BAD2800A34BCC /* MusicBox.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20161B3BAD2800A34BCC /* MusicBox.ogg */; };
+		71BC202E1B3BAD2800A34BCC /* Orange.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20171B3BAD2800A34BCC /* Orange.ogg */; };
+		71BC202F1B3BAD2800A34BCC /* Raindrops.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20181B3BAD2800A34BCC /* Raindrops.ogg */; };
+		71BC20301B3BAD2800A34BCC /* Thinker.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20191B3BAD2800A34BCC /* Thinker.ogg */; };
+		71BC20321B3BAD6500A34BCC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BC20311B3BAD6500A34BCC /* AudioToolbox.framework */; };
+		71BC20361B3BB02B00A34BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BC20331B3BB02B00A34BCC /* Main.storyboard */; };
+		71BC20371B3BB02B00A34BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC20351B3BB02B00A34BCC /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +58,41 @@
 		71BC1FD91B3BABE300A34BCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71BC1FDB1B3BABE300A34BCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71BC1FDC1B3BABE300A34BCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71BC1FDE1B3BABE300A34BCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71BC1FDF1B3BABE300A34BCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71BC1FE21B3BABE300A34BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71BC1FE41B3BABE300A34BCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71BC1FE71B3BABE300A34BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		71BC1FED1B3BABE300A34BCC /* MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BC1FF21B3BABE300A34BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BC1FF31B3BABE300A34BCC /* MusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTests.m; sourceTree = "<group>"; };
+		71BC1FFD1B3BABF800A34BCC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		71BC1FFE1B3BABF800A34BCC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		71BC1FFF1B3BABF800A34BCC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		71BC20031B3BAD2800A34BCC /* Angel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Angel.mp3; sourceTree = "<group>"; };
+		71BC20041B3BAD2800A34BCC /* Childhood.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Childhood.ogg; sourceTree = "<group>"; };
+		71BC20051B3BAD2800A34BCC /* Echo.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Echo.ogg; sourceTree = "<group>"; };
+		71BC20061B3BAD2800A34BCC /* Enthusiastic.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Enthusiastic.ogg; sourceTree = "<group>"; };
+		71BC20071B3BAD2800A34BCC /* Freedom.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Freedom.ogg; sourceTree = "<group>"; };
+		71BC20081B3BAD2800A34BCC /* Game.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Game.ogg; sourceTree = "<group>"; };
+		71BC20091B3BAD2800A34BCC /* GuitarClassic.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = GuitarClassic.ogg; sourceTree = "<group>"; };
+		71BC200A1B3BAD2800A34BCC /* GuitarPop.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = GuitarPop.ogg; sourceTree = "<group>"; };
+		71BC200B1B3BAD2800A34BCC /* GuitarRetro.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = GuitarRetro.ogg; sourceTree = "<group>"; };
+		71BC200C1B3BAD2800A34BCC /* IceWorldPiano.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = IceWorldPiano.ogg; sourceTree = "<group>"; };
+		71BC200D1B3BAD2800A34BCC /* LeisureTime.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = LeisureTime.ogg; sourceTree = "<group>"; };
+		71BC200E1B3BAD2800A34BCC /* Memory.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Memory.ogg; sourceTree = "<group>"; };
+		71BC200F1B3BAD2800A34BCC /* MI.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MI.ogg; sourceTree = "<group>"; };
+		71BC20101B3BAD2800A34BCC /* MiGlassChime.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiGlassChime.ogg; sourceTree = "<group>"; };
+		71BC20111B3BAD2800A34BCC /* MiMix.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiMix.ogg; sourceTree = "<group>"; };
+		71BC20121B3BAD2800A34BCC /* MiXylophone.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiXylophone.ogg; sourceTree = "<group>"; };
+		71BC20131B3BAD2800A34BCC /* MorningBreeze.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MorningBreeze.ogg; sourceTree = "<group>"; };
+		71BC20141B3BAD2800A34BCC /* MorningStreamlet.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MorningStreamlet.ogg; sourceTree = "<group>"; };
+		71BC20151B3BAD2800A34BCC /* MorningSunshine.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MorningSunshine.ogg; sourceTree = "<group>"; };
+		71BC20161B3BAD2800A34BCC /* MusicBox.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MusicBox.ogg; sourceTree = "<group>"; };
+		71BC20171B3BAD2800A34BCC /* Orange.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Orange.ogg; sourceTree = "<group>"; };
+		71BC20181B3BAD2800A34BCC /* Raindrops.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Raindrops.ogg; sourceTree = "<group>"; };
+		71BC20191B3BAD2800A34BCC /* Thinker.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thinker.ogg; sourceTree = "<group>"; };
+		71BC20311B3BAD6500A34BCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		71BC20331B3BB02B00A34BCC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		71BC20341B3BB02B00A34BCC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71BC20351B3BB02B00A34BCC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71BC20321B3BAD6500A34BCC /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +117,7 @@
 		71BC1FCB1B3BABE300A34BCC = {
 			isa = PBXGroup;
 			children = (
+				71BC20311B3BAD6500A34BCC /* AudioToolbox.framework */,
 				71BC1FD61B3BABE300A34BCC /* Music */,
 				71BC1FF01B3BABE300A34BCC /* MusicTests */,
 				71BC1FD51B3BABE300A34BCC /* Products */,
@@ -81,11 +136,15 @@
 		71BC1FD61B3BABE300A34BCC /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				71BC20021B3BAD2800A34BCC /* RingFinder */,
+				71BC1FFD1B3BABF800A34BCC /* MainViewController.h */,
+				71BC1FFE1B3BABF800A34BCC /* MainViewController.m */,
+				71BC1FFF1B3BABF800A34BCC /* MainViewController.xib */,
 				71BC1FDB1B3BABE300A34BCC /* AppDelegate.h */,
 				71BC1FDC1B3BABE300A34BCC /* AppDelegate.m */,
-				71BC1FDE1B3BABE300A34BCC /* ViewController.h */,
-				71BC1FDF1B3BABE300A34BCC /* ViewController.m */,
-				71BC1FE11B3BABE300A34BCC /* Main.storyboard */,
+				71BC20331B3BB02B00A34BCC /* Main.storyboard */,
+				71BC20341B3BB02B00A34BCC /* ViewController.h */,
+				71BC20351B3BB02B00A34BCC /* ViewController.m */,
 				71BC1FE41B3BABE300A34BCC /* Images.xcassets */,
 				71BC1FE61B3BABE300A34BCC /* LaunchScreen.xib */,
 				71BC1FD71B3BABE300A34BCC /* Supporting Files */,
@@ -117,6 +176,36 @@
 				71BC1FF21B3BABE300A34BCC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71BC20021B3BAD2800A34BCC /* RingFinder */ = {
+			isa = PBXGroup;
+			children = (
+				71BC20031B3BAD2800A34BCC /* Angel.mp3 */,
+				71BC20041B3BAD2800A34BCC /* Childhood.ogg */,
+				71BC20051B3BAD2800A34BCC /* Echo.ogg */,
+				71BC20061B3BAD2800A34BCC /* Enthusiastic.ogg */,
+				71BC20071B3BAD2800A34BCC /* Freedom.ogg */,
+				71BC20081B3BAD2800A34BCC /* Game.ogg */,
+				71BC20091B3BAD2800A34BCC /* GuitarClassic.ogg */,
+				71BC200A1B3BAD2800A34BCC /* GuitarPop.ogg */,
+				71BC200B1B3BAD2800A34BCC /* GuitarRetro.ogg */,
+				71BC200C1B3BAD2800A34BCC /* IceWorldPiano.ogg */,
+				71BC200D1B3BAD2800A34BCC /* LeisureTime.ogg */,
+				71BC200E1B3BAD2800A34BCC /* Memory.ogg */,
+				71BC200F1B3BAD2800A34BCC /* MI.ogg */,
+				71BC20101B3BAD2800A34BCC /* MiGlassChime.ogg */,
+				71BC20111B3BAD2800A34BCC /* MiMix.ogg */,
+				71BC20121B3BAD2800A34BCC /* MiXylophone.ogg */,
+				71BC20131B3BAD2800A34BCC /* MorningBreeze.ogg */,
+				71BC20141B3BAD2800A34BCC /* MorningStreamlet.ogg */,
+				71BC20151B3BAD2800A34BCC /* MorningSunshine.ogg */,
+				71BC20161B3BAD2800A34BCC /* MusicBox.ogg */,
+				71BC20171B3BAD2800A34BCC /* Orange.ogg */,
+				71BC20181B3BAD2800A34BCC /* Raindrops.ogg */,
+				71BC20191B3BAD2800A34BCC /* Thinker.ogg */,
+			);
+			path = RingFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +288,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BC1FE31B3BABE300A34BCC /* Main.storyboard in Resources */,
+				71BC20281B3BAD2800A34BCC /* MiMix.ogg in Resources */,
+				71BC201E1B3BAD2800A34BCC /* Freedom.ogg in Resources */,
+				71BC201C1B3BAD2800A34BCC /* Echo.ogg in Resources */,
+				71BC20241B3BAD2800A34BCC /* LeisureTime.ogg in Resources */,
+				71BC202B1B3BAD2800A34BCC /* MorningStreamlet.ogg in Resources */,
+				71BC20221B3BAD2800A34BCC /* GuitarRetro.ogg in Resources */,
+				71BC20361B3BB02B00A34BCC /* Main.storyboard in Resources */,
+				71BC202D1B3BAD2800A34BCC /* MusicBox.ogg in Resources */,
+				71BC20291B3BAD2800A34BCC /* MiXylophone.ogg in Resources */,
+				71BC201D1B3BAD2800A34BCC /* Enthusiastic.ogg in Resources */,
 				71BC1FE81B3BABE300A34BCC /* LaunchScreen.xib in Resources */,
 				71BC1FE51B3BABE300A34BCC /* Images.xcassets in Resources */,
+				71BC20271B3BAD2800A34BCC /* MiGlassChime.ogg in Resources */,
+				71BC20261B3BAD2800A34BCC /* MI.ogg in Resources */,
+				71BC20301B3BAD2800A34BCC /* Thinker.ogg in Resources */,
+				71BC201A1B3BAD2800A34BCC /* Angel.mp3 in Resources */,
+				71BC201F1B3BAD2800A34BCC /* Game.ogg in Resources */,
+				71BC20251B3BAD2800A34BCC /* Memory.ogg in Resources */,
+				71BC201B1B3BAD2800A34BCC /* Childhood.ogg in Resources */,
+				71BC202F1B3BAD2800A34BCC /* Raindrops.ogg in Resources */,
+				71BC202E1B3BAD2800A34BCC /* Orange.ogg in Resources */,
+				71BC202A1B3BAD2800A34BCC /* MorningBreeze.ogg in Resources */,
+				71BC20201B3BAD2800A34BCC /* GuitarClassic.ogg in Resources */,
+				71BC20011B3BABF800A34BCC /* MainViewController.xib in Resources */,
+				71BC202C1B3BAD2800A34BCC /* MorningSunshine.ogg in Resources */,
+				71BC20231B3BAD2800A34BCC /* IceWorldPiano.ogg in Resources */,
+				71BC20211B3BAD2800A34BCC /* GuitarPop.ogg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BC1FE01B3BABE300A34BCC /* ViewController.m in Sources */,
 				71BC1FDD1B3BABE300A34BCC /* AppDelegate.m in Sources */,
 				71BC1FDA1B3BABE300A34BCC /* main.m in Sources */,
+				71BC20371B3BB02B00A34BCC /* ViewController.m in Sources */,
+				71BC20001B3BABF800A34BCC /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +358,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71BC1FE11B3BABE300A34BCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71BC1FE21B3BABE300A34BCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71BC1FE61B3BABE300A34BCC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
